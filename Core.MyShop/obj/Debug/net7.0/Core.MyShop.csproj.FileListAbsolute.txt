@@ -9,3 +9,7 @@ E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\Core.MyShop.dll
 E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\refint\Core.MyShop.dll
 E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\Core.MyShop.pdb
 E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\ref\Core.MyShop.dll
+E:\project\MyShop\Core.MyShop\bin\Debug\net7.0\Infrastructure.MyShop.dll
+E:\project\MyShop\Core.MyShop\bin\Debug\net7.0\Infrastructure.MyShop.pdb
+E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\Core.MyShop.csproj.AssemblyReference.cache
+E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\Core.MyShop.csproj.CopyComplete
