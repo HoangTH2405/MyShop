@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.MyShop.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MyShop.Entities;
 
 namespace MyShop.Controllers
 {
@@ -13,63 +13,34 @@ namespace MyShop.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        private readonly MyShopContext _context;
+        private readonly ICustomerServices _customerServices;
 
-        public CustomersController(MyShopContext context)
+        public CustomersController(ICustomerServices customerServices)
         {
-            _context = context;
+            _customerServices = customerServices;
         }
 
-       
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
+        public IActionResult GetCustomers()
         {
-          if (_context.Customers == null)
-          {
-              return NotFound();
-          }
-            return await _context.Customers.ToListAsync();
+
+            return Ok(_customerServices.GetList());
         }
 
-       
+
         [HttpGet("{id}")]
-        public async Task<ActionResult<Customer>> GetCustomer(string id)
+        public IActionResult GetById(string id)
         {
-          if (_context.Customers == null)
-          {
-              return NotFound();
-          }
-            var customer = await _context.Customers.FindAsync(id);
 
-            if (customer == null)
-            {
-                return NotFound();
-            }
-
-            return customer;
+            return Ok(_customerServices.GetById(id));
         }
-       
-  
-       
+
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCustomer(string id)
+        public IActionResult DeleteCustomer(string id)
         {
-            if (_context.Customers == null)
-            {
-                return NotFound();
-            }
-            var customer = await _context.Customers.FindAsync(id);
-            if (customer == null)
-            {
-                return NotFound();
-            }
-
-            _context.Customers.Remove(customer);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            return Ok(_customerServices.Delete(id));
         }
 
-     
+
     }
 }

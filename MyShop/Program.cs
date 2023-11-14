@@ -1,5 +1,8 @@
+using Application.MyShop.Interfaces;
+using Application.MyShop.Service;
+using Infrastructure.MyShop.Contexts;
 using Microsoft.EntityFrameworkCore;
-using MyShop.Entities;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext <MyShopContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("MyShop")));
-
+builder.Services.AddTransient(typeof(ICustomerServices), typeof(CustomerSevices));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

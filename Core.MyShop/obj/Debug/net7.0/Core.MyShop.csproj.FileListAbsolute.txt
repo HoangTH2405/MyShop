@@ -1,0 +1,11 @@
+E:\project\MyShop\Core.MyShop\bin\Debug\net7.0\Core.MyShop.deps.json
+E:\project\MyShop\Core.MyShop\bin\Debug\net7.0\Core.MyShop.dll
+E:\project\MyShop\Core.MyShop\bin\Debug\net7.0\Core.MyShop.pdb
+E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\Core.MyShop.GeneratedMSBuildEditorConfig.editorconfig
+E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\Core.MyShop.AssemblyInfoInputs.cache
+E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\Core.MyShop.AssemblyInfo.cs
+E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\Core.MyShop.csproj.CoreCompileInputs.cache
+E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\Core.MyShop.dll
+E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\refint\Core.MyShop.dll
+E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\Core.MyShop.pdb
+E:\project\MyShop\Core.MyShop\obj\Debug\net7.0\ref\Core.MyShop.dll

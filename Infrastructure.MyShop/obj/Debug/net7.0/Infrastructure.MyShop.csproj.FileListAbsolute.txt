@@ -1,0 +1,14 @@
+E:\project\MyShop\Infrastructure.MyShop\bin\Debug\net7.0\Infrastructure.MyShop.deps.json
+E:\project\MyShop\Infrastructure.MyShop\bin\Debug\net7.0\Infrastructure.MyShop.runtimeconfig.json
+E:\project\MyShop\Infrastructure.MyShop\bin\Debug\net7.0\Infrastructure.MyShop.dll
+E:\project\MyShop\Infrastructure.MyShop\bin\Debug\net7.0\Infrastructure.MyShop.pdb
+E:\project\MyShop\Infrastructure.MyShop\obj\Debug\net7.0\Infrastructure.MyShop.csproj.AssemblyReference.cache
+E:\project\MyShop\Infrastructure.MyShop\obj\Debug\net7.0\Infrastructure.MyShop.GeneratedMSBuildEditorConfig.editorconfig
+E:\project\MyShop\Infrastructure.MyShop\obj\Debug\net7.0\Infrastructure.MyShop.AssemblyInfoInputs.cache
+E:\project\MyShop\Infrastructure.MyShop\obj\Debug\net7.0\Infrastructure.MyShop.AssemblyInfo.cs
+E:\project\MyShop\Infrastructure.MyShop\obj\Debug\net7.0\Infrastructure.MyShop.csproj.CoreCompileInputs.cache
+E:\project\MyShop\Infrastructure.MyShop\obj\Debug\net7.0\Infrastructure.MyShop.dll
+E:\project\MyShop\Infrastructure.MyShop\obj\Debug\net7.0\refint\Infrastructure.MyShop.dll
+E:\project\MyShop\Infrastructure.MyShop\obj\Debug\net7.0\Infrastructure.MyShop.pdb
+E:\project\MyShop\Infrastructure.MyShop\obj\Debug\net7.0\Infrastructure.MyShop.genruntimeconfig.cache
+E:\project\MyShop\Infrastructure.MyShop\obj\Debug\net7.0\ref\Infrastructure.MyShop.dll
